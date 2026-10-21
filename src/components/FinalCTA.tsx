@@ -24,7 +24,7 @@ export const FinalCTA: React.FC<FinalCTAProps> = ({ onOpenLeadModal }) => {
                 Connect your router
               </button>
               <a
-                href="#live-showcase"
+                href="#console"
                 className="text-[14px] text-[#111111] hover:underline cursor-pointer"
               >
                 Explore the console

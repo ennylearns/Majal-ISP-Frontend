@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Navbar } from './components/Navbar';
-import { Hero } from './components/Hero';
 import { DashboardPreview } from './components/DashboardPreview';
+import { Hero } from './components/Hero';
 import { Features } from './components/Features';
 import { HowItWorks } from './components/HowItWorks';
 import { RouterCompatibility } from './components/RouterCompatibility';
@@ -22,7 +22,7 @@ import {
 } from './data/dashboardData';
 
 export default function App() {
-  const [currentView, setCurrentView] = useState<'home' | 'auth' | 'dashboard'>('home');
+  const [currentView, setCurrentView] = useState<'home' | 'auth' | 'dashboard' | 'console'>('home');
   const [authPrefilledEmail, setAuthPrefilledEmail] = useState('');
   const [isLeadModalOpen, setIsLeadModalOpen] = useState(false);
   const [selectedPlanForModal, setSelectedPlanForModal] = useState<string | undefined>(undefined);
@@ -61,7 +61,9 @@ export default function App() {
   useEffect(() => {
     const handleHashChange = () => {
       const hash = window.location.hash.toLowerCase();
-      if (hash === '#dashboard' || hash.startsWith('#dashboard')) {
+      if (hash === '#console' || hash.startsWith('#console')) {
+        setCurrentView('console');
+      } else if (hash === '#dashboard' || hash.startsWith('#dashboard')) {
         if (currentUser) {
           setCurrentView('dashboard');
         } else {
@@ -85,10 +87,8 @@ export default function App() {
   };
 
   const handleExploreConsole = () => {
-    const el = document.getElementById('live-showcase');
-    if (el) {
-      el.scrollIntoView({ behavior: 'smooth' });
-    }
+    window.location.hash = '#console';
+    setCurrentView('console');
   };
 
   const handleNavigateToAuth = (email?: string) => {
@@ -144,6 +144,21 @@ export default function App() {
     setCurrentView('home');
   };
 
+  // View: Dedicated live console page
+  if (currentView === 'console') {
+    return (
+      <div className="min-h-[100svh] bg-[#f4f4f4] text-[#111111] font-sans">
+        <Navbar
+          onOpenLeadModal={() => handleOpenLeadModal()}
+          onOpenLoginModal={() => handleNavigateToAuth()}
+        />
+        <main>
+          <DashboardPreview />
+        </main>
+      </div>
+    );
+  }
+
   // View: Dedicated Dashboard Page
   if (currentView === 'dashboard') {
     const effectiveUser: User = currentUser || {
@@ -198,10 +213,7 @@ export default function App() {
           onExploreDemo={handleExploreConsole} 
         />
 
-        {/* Section 2: Showcase — Live demo with controls (62/38 Split) */}
-        <DashboardPreview />
-
-        {/* Section 3: Features — Staggered fragment cells (3-col checkerboard) */}
+        {/* Section 2: Features — Staggered fragment cells (3-col checkerboard) */}
         <Features />
 
         {/* Section 4: How It Works — Pinned fragment changing state */}

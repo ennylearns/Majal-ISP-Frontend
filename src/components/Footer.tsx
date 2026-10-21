@@ -21,7 +21,7 @@ export const Footer: React.FC<{ onOpenLeadModal: () => void }> = () => {
 
           {/* Centered: 2 to 5 links separated by 24px of space */}
           <div className="flex flex-wrap items-center justify-start md:justify-center gap-6">
-            <a href="#live-showcase" className="text-[#111111] hover:underline">
+            <a href="#console" className="text-[#111111] hover:underline">
               Instrumentation
             </a>
             <a href="#features-matrix" className="text-[#111111] hover:underline">

@@ -9,7 +9,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenLeadModal, onOpenLoginModa
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navLinks = [
-    { label: 'Live console', href: '#live-showcase' },
+    { label: 'Live console', href: '#console' },
     { label: 'Features', href: '#features-matrix' },
     { label: 'How it works', href: '#workflow' },
     { label: 'Hardware', href: '#hardware-spec' },
