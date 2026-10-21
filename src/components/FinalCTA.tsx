@@ -13,7 +13,7 @@ export const FinalCTA: React.FC<FinalCTAProps> = ({ onOpenLeadModal }) => {
           {/* Left Column (Cols 1-7): Plain Sentence and Action */}
           <div data-rise style={{ '--i': 0 } as React.CSSProperties} className="lg:col-span-7">
             <p className="text-[clamp(20px,2vw,24px)] font-normal text-[#111111] leading-[1.35] max-w-[34ch] mb-6">
-              Connect your first MikroTik router and automate venue billing in under five minutes.
+              Connect your first MikroTik router and start managing Wi-Fi access in minutes.
             </p>
 
             <div className="flex flex-wrap items-center gap-6">
@@ -21,13 +21,13 @@ export const FinalCTA: React.FC<FinalCTAProps> = ({ onOpenLeadModal }) => {
                 onClick={onOpenLeadModal}
                 className="button-primary text-[14px] h-[40px] px-[18px] cursor-pointer"
               >
-                Begin deployment
+                Connect your router
               </button>
               <a
-                href="#live-showcase"
+                href="#console"
                 className="text-[14px] text-[#111111] hover:underline cursor-pointer"
               >
-                Read documentation
+                Explore the console
               </a>
             </div>
           </div>

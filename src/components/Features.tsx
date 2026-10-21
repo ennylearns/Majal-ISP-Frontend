@@ -7,7 +7,7 @@ export const Features: React.FC = () => {
         {/* Section Heading: 2-4 words at 24-30px, 56px below */}
         <div data-rise style={{ '--i': 0 } as React.CSSProperties} className="mb-14 text-left">
           <h2 className="text-[clamp(26px,2.5vw,32px)] font-medium text-[#111111] tracking-[-0.02em]">
-            The router architecture.
+            Everything you need to run the network.
           </h2>
         </div>
 
@@ -25,7 +25,7 @@ export const Features: React.FC = () => {
                 RouterOS provisioning
               </h3>
               <p className="text-[15px] text-[#111111] leading-[1.5]">
-                Pair any MikroTik hardware in seconds via RouterOS script or standard RADIUS. Operates securely behind NAT with zero public IP dependency.
+                Connect MikroTik hardware in seconds with a RouterOS script or standard RADIUS. It works behind NAT, so you do not need a public IP.
               </p>
             </div>
             {/* Terminal snippet fragment */}
@@ -70,7 +70,7 @@ export const Features: React.FC = () => {
                 Automated captive billing
               </h3>
               <p className="text-[15px] text-[#111111] leading-[1.5]">
-                Direct integration with debit cards, mobile money, and USSD. Webhooks authenticate payments and authorize router leases with zero manual confirmation.
+                Accept card, mobile money, and USSD payments. Verified payment updates grant access without manual approval.
               </p>
             </div>
           </div>
@@ -86,7 +86,7 @@ export const Features: React.FC = () => {
                 Dynamic queue trees
               </h3>
               <p className="text-[15px] text-[#111111] leading-[1.5]">
-                Generates Simple Queues on RouterOS automatically. Enforces strict burst thresholds, upload limits, and packet priorities for high-density venues.
+                Create RouterOS queues automatically. Set download and upload limits, bursts, and traffic priorities for busy venues.
               </p>
             </div>
             {/* Queue Table slice fragment */}
@@ -134,10 +134,10 @@ export const Features: React.FC = () => {
             </div>
             <div className="p-6">
               <h3 className="text-[17px] font-medium text-[#111111] mb-2">
-                Sub-second health telemetry
+                Keep an eye on router health
               </h3>
               <p className="text-[15px] text-[#111111] leading-[1.5]">
-                Continuous monitoring of router CPU load, memory utilization, link quality, and thermal readings with instant alerts before outages occur.
+                Watch CPU, memory, link quality, and temperature in one place, with alerts when something needs attention.
               </p>
             </div>
           </div>
@@ -153,7 +153,7 @@ export const Features: React.FC = () => {
                 Student & guest portal
               </h3>
               <p className="text-[15px] text-[#111111] leading-[1.5]">
-                Responsive captive portal served directly on user connection. Patrons enter their voucher PIN or purchase instant access in three taps.
+                Give users a simple login page when they connect. They can enter a voucher PIN or buy access in a few taps.
               </p>
             </div>
             {/* Captive form slice fragment */}
@@ -193,10 +193,10 @@ export const Features: React.FC = () => {
             </div>
             <div className="p-6">
               <h3 className="text-[17px] font-medium text-[#111111] mb-2">
-                Distributed fleet dispatch
+                Manage every location in one place
               </h3>
               <p className="text-[15px] text-[#111111] leading-[1.5]">
-                Consolidate fifty routers across disparate campuses and towns under one tenant. Synchronize rate policies and pull centralized revenue reports.
+                Manage routers across campuses, hotels, and branches from one account. Keep rate limits consistent and review revenue in one place.
               </p>
             </div>
           </div>

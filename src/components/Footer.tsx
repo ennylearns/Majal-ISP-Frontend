@@ -15,13 +15,13 @@ export const Footer: React.FC<{ onOpenLeadModal: () => void }> = () => {
               className="h-8 w-auto object-contain"
             />
             <span className="text-[#555555] text-[14px]">
-              MAJAL ISP. RouterOS cloud billing.
+              MAJAL ISP. Simple Wi-Fi billing for RouterOS.
             </span>
           </div>
 
           {/* Centered: 2 to 5 links separated by 24px of space */}
           <div className="flex flex-wrap items-center justify-start md:justify-center gap-6">
-            <a href="#live-showcase" className="text-[#111111] hover:underline">
+            <a href="#console" className="text-[#111111] hover:underline">
               Instrumentation
             </a>
             <a href="#features-matrix" className="text-[#111111] hover:underline">

@@ -30,7 +30,7 @@ export const HowItWorks: React.FC = () => {
           <div className="lg:col-span-6 space-y-8">
             <div data-rise style={{ '--i': 0 } as React.CSSProperties} className="mb-8">
               <h2 className="text-[clamp(24px,2.2vw,28px)] font-medium text-[#111111] tracking-[-0.02em]">
-                Three operations.
+                Set it up in three steps.
               </h2>
             </div>
 
@@ -45,7 +45,7 @@ export const HowItWorks: React.FC = () => {
               }`}
             >
               <h3 className="text-[clamp(24px,2.2vw,30px)] font-medium text-[#111111] leading-[1.2] mb-3">
-                Pair the router via outbound script.
+                Connect your router.
               </h3>
               <p className="text-[16px] text-[#111111] leading-[1.5] max-w-[42ch]">
                 Paste one line into RouterOS Terminal. Your gateway establishes a TLS tunnel to the dispatch engine without public IP configuration or port forwarding.
@@ -63,7 +63,7 @@ export const HowItWorks: React.FC = () => {
               }`}
             >
               <h3 className="text-[clamp(24px,2.2vw,30px)] font-medium text-[#111111] leading-[1.2] mb-3">
-                Define speed ceilings and tariff passes.
+                Set plans and speed limits.
               </h3>
               <p className="text-[16px] text-[#111111] leading-[1.5] max-w-[42ch]">
                 Configure 1-hour, daily, or monthly passes. The engine automatically creates corresponding Simple Queues with download and burst limits directly on the router.
@@ -81,7 +81,7 @@ export const HowItWorks: React.FC = () => {
               }`}
             >
               <h3 className="text-[clamp(24px,2.2vw,30px)] font-medium text-[#111111] leading-[1.2] mb-3">
-                Dispatch automated vouchers and billing.
+                Sell access and send vouchers.
               </h3>
               <p className="text-[16px] text-[#111111] leading-[1.5] max-w-[42ch]">
                 Patrons connect and pay via Card, USSD, or Mobile Money. Webhooks trigger instant PIN issuance and RouterOS RADIUS lease authorization in milliseconds.
@@ -154,7 +154,7 @@ export const HowItWorks: React.FC = () => {
                           <div className="font-medium text-[#111111]">6-Hour Study Pass</div>
                           <div className="text-[13px] text-[#555555]">Queue limit: 8M down / 4M up</div>
                         </div>
-                        <div className="text-right font-medium text-[#111111]">₦600</div>
+                        <div className="text-right font-medium text-[#111111]">���600</div>
                       </div>
                       <div className="p-3 bg-[#f4f4f4] flex justify-between items-center">
                         <div>
@@ -195,7 +195,7 @@ export const HowItWorks: React.FC = () => {
 
               {/* Stage Footer */}
               <div className="text-[13px] text-[#555555] pt-4">
-                Scroll through statements or click buttons above to inspect live RouterOS actions.
+                Scroll through the steps or click a number to see what happens in RouterOS.
               </div>
             </div>
           </div>

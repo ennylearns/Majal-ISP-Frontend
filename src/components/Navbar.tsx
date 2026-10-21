@@ -9,11 +9,11 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenLeadModal, onOpenLoginModa
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navLinks = [
-    { label: 'Instrumentation', href: '#live-showcase' },
-    { label: 'Architecture', href: '#features-matrix' },
-    { label: 'Workflow', href: '#workflow' },
+    { label: 'Live console', href: '#console' },
+    { label: 'Features', href: '#features-matrix' },
+    { label: 'How it works', href: '#workflow' },
     { label: 'Hardware', href: '#hardware-spec' },
-    { label: 'Tariffs', href: '#pricing-menu' },
+    { label: 'Plans', href: '#pricing-menu' },
   ];
 
   const handleNavClick = (href: string) => {
@@ -70,13 +70,13 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenLeadModal, onOpenLoginModa
             onClick={onOpenLoginModal}
             className="text-[15px] font-normal text-[#111111] hover:underline whitespace-nowrap cursor-pointer"
           >
-            Operator login
+            Log in
           </button>
           <button
             onClick={() => onOpenLeadModal()}
             className="button-primary cursor-pointer text-[14px]"
           >
-            Connect gateway
+            Connect a gateway
           </button>
         </div>
 
@@ -86,7 +86,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenLeadModal, onOpenLoginModa
             onClick={() => onOpenLeadModal()}
             className="button-primary text-[13px] py-1.5 px-3 cursor-pointer shrink-0"
           >
-            Connect gateway
+            Connect a gateway
           </button>
           <button
             type="button"
@@ -125,7 +125,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenLeadModal, onOpenLoginModa
               }}
               className="text-left text-[15px] text-[#111111] py-1 cursor-pointer"
             >
-              Operator login
+              Log in
             </button>
           </div>
         </div>

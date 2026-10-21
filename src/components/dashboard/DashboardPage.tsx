@@ -12,6 +12,7 @@ import { RouterNodesList } from './RouterNodesList';
 import { WifiPlansSection } from './WifiPlansSection';
 import { AddRouterModal } from './AddRouterModal';
 import { GenerateVoucherModal } from './GenerateVoucherModal';
+import { AnalyticsView, BillingView, SessionsView, SettingsView } from './AdminTabViews';
 
 interface DashboardPageProps {
   user: User;
@@ -226,20 +227,19 @@ export const DashboardPage: React.FC<DashboardPageProps> = ({
                   searchQuery={searchQuery}
                 />
               </div>
+            ) : currentTab === 'analytics' ? (
+              <AnalyticsView routers={routers} transactions={transactions} onNavigate={setCurrentTab} />
+            ) : currentTab === 'billing' ? (
+              <BillingView routers={routers} transactions={transactions} onNavigate={setCurrentTab} />
+            ) : currentTab === 'users' ? (
+              <SessionsView routers={routers} transactions={transactions} onNavigate={setCurrentTab} />
+            ) : currentTab === 'settings' ? (
+              <SettingsView />
             ) : (
               <div className="bg-white rounded-2xl p-8 shadow-xs text-center" data-ui="true">
-                <h2 className="text-[18px] font-bold text-[#111111] mb-2">
-                  {currentTab.toUpperCase()} View Active
-                </h2>
-                <p className="text-[14px] text-[#666666] mb-4">
-                  Full operator telemetry is synchronized in real-time.
-                </p>
-                <button
-                  onClick={() => setCurrentTab('dashboard')}
-                  className="bg-[#1a4be0] text-white px-5 py-2 rounded-full text-[13px] font-medium cursor-pointer shadow-xs shadow-[#1a4be0]/20"
-                >
-                  Return to Dashboard Overview
-                </button>
+                <h2 className="text-[18px] font-bold text-[#111111] mb-2">View Active</h2>
+                <p className="text-[14px] text-[#666666] mb-4">Full operator telemetry is synchronized in real-time.</p>
+                <button onClick={() => setCurrentTab('dashboard')} className="bg-[#1a4be0] text-white px-5 py-2 rounded-full text-[13px] font-medium cursor-pointer shadow-xs shadow-[#1a4be0]/20">Return to Dashboard Overview</button>
               </div>
             )}
           </div>

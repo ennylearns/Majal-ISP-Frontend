@@ -30,7 +30,7 @@ export const TestimonialThread: React.FC = () => {
 
               {/* Body: 2 lines max adhering to statement length rule */}
               <p className="text-[clamp(19px,1.8vw,24px)] font-normal text-[#111111] leading-[1.3] tracking-[-0.015em]">
-                We migrated forty-two MikroTik RB4011 routers across three campuses. Student complaints ceased completely because captive vouchers authenticate instantly.
+                We moved 42 MikroTik routers across three campuses. Students connect faster because vouchers authenticate instantly.
               </p>
 
               {/* Resolved / Telemetry State */}

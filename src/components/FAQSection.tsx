@@ -52,10 +52,10 @@ export const FAQSection: React.FC = () => {
           {/* Columns 1–3: Heading */}
           <div data-rise style={{ '--i': 0 } as React.CSSProperties} className="lg:col-span-4 text-left">
             <h2 className="text-[clamp(26px,2.2vw,30px)] font-medium text-[#111111] tracking-[-0.02em] leading-tight">
-              Operational details.
+              Common questions.
             </h2>
             <p className="text-[16px] text-[#111111] mt-3 leading-[1.5]">
-              Technical explanations of router pairing, RADIUS handshakes, and captive session management.
+              Straightforward answers about setup, payments, hardware, and day-to-day network management.
             </p>
           </div>
 

@@ -55,10 +55,10 @@ export const RouterCompatibility: React.FC<RouterCompatibilityProps> = ({ onOpen
         {/* Section Heading */}
         <div data-rise style={{ '--i': 0 } as React.CSSProperties} className="mb-12 text-left">
           <h2 className="text-[clamp(26px,2.5vw,32px)] font-medium text-[#111111] tracking-[-0.02em] mb-3">
-            Hardware specification.
+            Supported hardware.
           </h2>
           <p className="text-[16px] text-[#111111] max-w-[50ch]">
-            MAJAL runs on genuine RouterOS firmware. No customized bootloaders or physical hardware modifications required.
+            Use the MikroTik hardware you already have. No custom firmware or hardware changes are required.
           </p>
         </div>
 
