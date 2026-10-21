@@ -72,7 +72,7 @@ export const DashboardPage: React.FC<DashboardPageProps> = ({
   };
 
   return (
-    <div className="min-h-[100svh] bg-[#EFF1F5] text-[#111111] font-sans selection:bg-[#1a4be0] selection:text-white pb-16" data-ui="true">
+    <div className="min-h-[100svh] bg-[#f7f8fa] text-[#172033] font-sans selection:bg-[#2455d6] selection:text-white pb-16" data-ui="true">
       {/* 1. Header */}
       <DashboardHeader
         user={user}
@@ -84,22 +84,25 @@ export const DashboardPage: React.FC<DashboardPageProps> = ({
         onSearchChange={setSearchQuery}
       />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
-        
-        {/* 2. Clean Greeting Row */}
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
+        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-8">
           <div>
-            <h1 className="text-[26px] sm:text-[30px] font-bold tracking-tight text-[#111111]">
-              Welcome back Victor
+            <p className="text-[12px] font-semibold uppercase tracking-[0.14em] text-[#667085]">Operator workspace</p>
+            <h1 className="mt-2 text-[28px] sm:text-[34px] font-semibold tracking-[-0.03em] text-[#172033]">
+              Good morning, {user.name.split(' ')[0]}
             </h1>
-            <p className="text-[13px] text-[#666666] mt-0.5">
-              Live MikroTik network telemetry, revenue streams, and captive Wi-Fi plans.
+            <p className="mt-2 max-w-xl text-[14px] text-[#667085]">
+              Monitor your network, revenue, and customer access from one place.
             </p>
+          </div>
+          <div className="flex items-center gap-2 text-[12px] text-[#157a5b]">
+            <span className="size-2 rounded-full bg-[#157a5b]" />
+            All systems operational
           </div>
         </div>
 
         {/* 3. Main Dashboard Body: Left Dock + Bento Grid */}
-        <div className="flex items-start gap-5">
+        <div className="flex items-start gap-6">
           
           {/* Floating Pill Sidebar Dock */}
           <SidebarDock
@@ -159,7 +162,7 @@ export const DashboardPage: React.FC<DashboardPageProps> = ({
                   />
 
                   {/* Quick Router Fleet Live Node Status Card */}
-                  <div className="bg-white rounded-2xl p-6 shadow-xs" data-ui="true">
+                  <div className="bg-white rounded-xl p-5 border border-[#e6e9ef]" data-ui="true">
                     <div className="flex items-center justify-between mb-4">
                       <div>
                         <h2 className="text-[17px] font-semibold text-[#111111] tracking-tight">
@@ -177,7 +180,7 @@ export const DashboardPage: React.FC<DashboardPageProps> = ({
                       </button>
                     </div>
 
-                    <div className="space-y-2.5">
+                    <div className="flex flex-col gap-2">
                       {routers.slice(0, 3).map((rt) => (
                         <div
                           key={rt.id}

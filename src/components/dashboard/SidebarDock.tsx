@@ -32,7 +32,7 @@ export const SidebarDock: React.FC<SidebarDockProps> = ({
 
   return (
     <aside 
-      className="hidden md:flex flex-col items-center justify-between bg-white rounded-full py-5 px-3 shadow-xs shrink-0 self-start sticky top-24"
+      className="hidden md:flex flex-col items-center justify-between bg-white rounded-2xl py-5 px-3 border border-[#e6e9ef] shrink-0 self-start sticky top-24"
       aria-label="Navigation dock"
     >
       {/* Top action / navigation icons */}
@@ -45,10 +45,10 @@ export const SidebarDock: React.FC<SidebarDockProps> = ({
               key={item.id}
               onClick={() => onSelectTab(item.id)}
               title={item.label}
-              className={`w-10 h-10 rounded-full flex items-center justify-center transition-colors cursor-pointer ${
+className={`size-10 rounded-xl flex items-center justify-center transition-colors cursor-pointer ${
                 isActive
-                  ? 'bg-[#1a4be0] text-white shadow-xs'
-                  : 'text-[#666666] hover:text-[#111111] hover:bg-[#f4f4f4]'
+                  ? 'bg-[#2455d6] text-white shadow-sm'
+                  : 'text-[#667085] hover:text-[#172033] hover:bg-[#f0f2f5]'
               }`}
             >
               <Icon size={18} strokeWidth={2} />
@@ -66,7 +66,7 @@ export const SidebarDock: React.FC<SidebarDockProps> = ({
           className={`w-10 h-10 rounded-full flex items-center justify-center transition-colors cursor-pointer ${
             activeTab === 'settings'
               ? 'bg-[#1a4be0] text-white'
-              : 'text-[#666666] hover:text-[#111111] hover:bg-[#f4f4f4]'
+              : 'text-[#667085] hover:text-[#172033] hover:bg-[#f0f2f5]'
           }`}
         >
           <Settings size={18} strokeWidth={2} />

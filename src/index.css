@@ -7,16 +7,18 @@
 :root {
   --font-family: 'Jost', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   
-  /* Sheet and biro palette */
-  --bg: #ffffff;
-  --surface: #f4f4f4;
-  --surface-hover: #ebebeb;
-  --ink: #111111;
-  --muted: #555555;
-  --accent: #1a4be0;
+  /* MAJAL operating palette: warm neutrals, one decisive action color */
+  --bg: #f7f8fa;
+  --surface: #ffffff;
+  --surface-hover: #f0f2f5;
+  --ink: #172033;
+  --muted: #667085;
+  --accent: #2455d6;
   --accent-ink: #ffffff;
-  --field-1: #111111;
+  --field-1: #172033;
   --field-1-ink: #ffffff;
+  --border: #e6e9ef;
+  --success: #157a5b;
 
   /* 5 strict type steps from direction sheet */
   --step-small: 13px;

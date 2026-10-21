@@ -25,8 +25,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenLeadModal, onOpenLoginModa
   };
 
   return (
-    <header className="sticky top-0 z-40 bg-white border-none w-full overflow-x-clip">
-      <div className="max-w-6xl mx-auto px-6 lg:px-12 h-16 flex items-center justify-between gap-4">
+    <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-sm border-b border-[#e6e9ef] w-full overflow-x-clip">
+      <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-10 h-[72px] flex items-center justify-between gap-4">
         
         {/* Brand Wordmark & Official Logo */}
         <a 
@@ -48,7 +48,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenLeadModal, onOpenLoginModa
         </a>
 
         {/* Concise Plain Nav Links (Desktop >= 1024px) */}
-        <nav className="hidden lg:flex items-center gap-7 text-[15px] font-normal text-[#111111]">
+        <nav className="hidden lg:flex items-center gap-8 text-[14px] font-medium text-[#172033]">
           {navLinks.map((link) => (
             <a
               key={link.label}
@@ -101,8 +101,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenLeadModal, onOpenLoginModa
 
       {/* Mobile Menu Dropdown */}
       {mobileMenuOpen && (
-        <div className="lg:hidden bg-[#f4f4f4] px-6 py-6 space-y-4">
-          <div className="flex flex-col space-y-3">
+        <div className="lg:hidden bg-white border-t border-[#e6e9ef] px-5 py-5 flex flex-col gap-4">
+          <div className="flex flex-col gap-3">
             {navLinks.map((link) => (
               <a
                 key={link.label}

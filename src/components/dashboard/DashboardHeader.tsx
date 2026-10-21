@@ -34,8 +34,8 @@ export const DashboardHeader: React.FC<DashboardHeaderProps> = ({
   ];
 
   return (
-    <header className="w-full bg-white shadow-xs sticky top-0 z-30">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-18 flex items-center justify-between gap-4">
+    <header className="w-full bg-white/95 backdrop-blur-sm border-b border-[#e6e9ef] sticky top-0 z-30">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-[72px] flex items-center justify-between gap-4">
         
         {/* Left: Brand Identity & Logo */}
         <div className="flex items-center gap-6">
@@ -55,7 +55,7 @@ export const DashboardHeader: React.FC<DashboardHeaderProps> = ({
           </button>
 
           {/* Navigation Pill Tabs Container (matching concept image) */}
-          <nav className="hidden md:flex items-center bg-[#f4f4f4] rounded-full p-1 gap-1">
+          <nav className="hidden md:flex items-center bg-[#f0f2f5] rounded-lg p-1 gap-1">
             {mainTabs.map((tab) => {
               const isActive = currentTab === tab.id;
               return (
@@ -64,7 +64,7 @@ export const DashboardHeader: React.FC<DashboardHeaderProps> = ({
                   onClick={() => onSelectTab(tab.id)}
                   className={`px-4 py-1.5 rounded-full text-[13px] font-medium transition-colors cursor-pointer ${
                     isActive
-                      ? 'bg-white text-[#111111] shadow-xs'
+                      ? 'bg-white text-[#172033] shadow-sm'
                       : 'text-[#666666] hover:text-[#111111]'
                   }`}
                 >
