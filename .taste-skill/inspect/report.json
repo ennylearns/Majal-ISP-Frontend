@@ -1,0 +1,1418 @@
+{
+ "url": "http://127.0.0.1:4173",
+ "at": "2026-10-18T00:38:56.465Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 10,
+   "filled": [
+    0.44,
+    0.31,
+    0.63,
+    0.37,
+    0.3,
+    0.37,
+    0.3,
+    0.24,
+    0.4,
+    0.22
+   ],
+   "motion": {
+    "elements": 48,
+    "css": 47,
+    "transitions": 1,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 8833,
+     "screens": 9.8,
+     "words": 1371,
+     "img": 3,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 9,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 13,
+     "uiAbuse": false,
+     "realPictures": 3,
+     "videoCount": 0,
+     "uiPictures": 5,
+     "pictureSamples": [
+      "parabolic-antennas-on-a-telecommunications-tower",
+      "vodno-telecommunication-tower-skopje-2.jpg",
+      "map-of-african-undersea-fiber-optic-cables.png"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "RouterOS Wi-Fi billing without captive friction.",
+     "words": 6,
+     "chars": 48,
+     "lines": 2,
+     "size": 30.2,
+     "vw": 2.1,
+     "font": "Jost",
+     "weight": 500,
+     "tracking": -0.02,
+     "leading": 1.1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.33,
+     "top": 318,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "RouterOS Wi-Fi billing without captive friction.",
+     "words": 6,
+     "lines": 2,
+     "size": 30.2,
+     "font": "Jost"
+    },
+    "headings": [
+     {
+      "text": "RouterOS Wi-Fi billing without captive friction.",
+      "words": 6,
+      "chars": 48,
+      "lines": 2,
+      "size": 30.2,
+      "vw": 2.1,
+      "font": "Jost",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.33,
+      "top": 318,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Live operator dispatch.",
+      "words": 3,
+      "chars": 23,
+      "lines": 1,
+      "size": 28.8,
+      "vw": 2,
+      "font": "Jost",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.71,
+      "top": 925,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "The router architecture.",
+      "words": 3,
+      "chars": 24,
+      "lines": 1,
+      "size": 32,
+      "vw": 2.2,
+      "font": "Jost",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.8,
+      "top": 1856,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Three operations.",
+      "words": 2,
+      "chars": 17,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Jost",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.38,
+      "top": 3060,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Pair the router via outbound script.",
+      "words": 6,
+      "chars": 36,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Jost",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.38,
+      "top": 3272,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Define speed ceilings and tariff passes.",
+      "words": 6,
+      "chars": 40,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Jost",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.38,
+      "top": 3700,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Dispatch automated vouchers and billing.",
+      "words": 5,
+      "chars": 40,
+      "lines": 2,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Jost",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.38,
+      "top": 4110,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Hardware specification.",
+      "words": 2,
+      "chars": 23,
+      "lines": 1,
+      "size": 32,
+      "vw": 2.2,
+      "font": "Jost",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.8,
+      "top": 4578,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Tariff plans.",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 32,
+      "vw": 2.2,
+      "font": "Jost",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.24,
+      "top": 6246,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Operational details.",
+      "words": 2,
+      "chars": 20,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Jost",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.24,
+      "top": 7208,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 10,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Jost",
+       "share": 0.98,
+       "mono": false
+      },
+      {
+       "family": "ui-monospace",
+       "share": 0.02,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      24,
+      28,
+      29,
+      30,
+      32
+     ],
+     "sizeCount": 12,
+     "notLoaded": [],
+     "body": {
+      "font": "Jost",
+      "size": 16,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 18.9
+     },
+     "measureChars": 42,
+     "max": {
+      "size": 32,
+      "vw": 2.2,
+      "font": "Jost",
+      "text": "The router architecture."
+     },
+     "monoShare": 0.02,
+     "monoProseShare": 0,
+     "monoFamilies": [
+      "ui-monospace"
+     ],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.03,
+     "centerShare": 0.05,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#f4f4f4",
+       "top": 64,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.96
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#111111",
+       "share": 0.55
+      },
+      {
+       "color": "#333333",
+       "share": 0.21
+      },
+      {
+       "color": "#555555",
+       "share": 0.19
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.02
+      },
+      {
+       "color": "#1a4be0",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#1a4be0",
+      "hsl": {
+       "h": 225,
+       "s": 0.79,
+       "l": 0.49
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 10,
+     "inHero": 4,
+     "radius": 0,
+     "height": 43,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Connect gateway",
+      "Deploy gateway",
+      "North Campus",
+      "Issue test PIN"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 1,
+     "boxRadius": 12,
+     "squareMedia": 3,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 6,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 1960
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 6300
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 6,
+     "fixed": true,
+     "height": 64,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "jost"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.52,
+    0.45,
+    0.38,
+    0.45,
+    0.14,
+    0.45,
+    0.48,
+    0.44,
+    0.26,
+    0.43,
+    0.49,
+    0.46
+   ],
+   "motion": {
+    "elements": 48,
+    "css": 47,
+    "transitions": 1,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 11500,
+     "screens": 11.2,
+     "words": 1376,
+     "img": 3,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 9,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 13,
+     "uiAbuse": false,
+     "realPictures": 3,
+     "videoCount": 0,
+     "uiPictures": 5,
+     "pictureSamples": [
+      "parabolic-antennas-on-a-telecommunications-tower",
+      "vodno-telecommunication-tower-skopje-2.jpg",
+      "map-of-african-undersea-fiber-optic-cables.png"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "RouterOS Wi-Fi billing without captive friction.",
+     "words": 6,
+     "chars": 48,
+     "lines": 2,
+     "size": 26,
+     "vw": 3.4,
+     "font": "Jost",
+     "weight": 500,
+     "tracking": -0.02,
+     "leading": 1.1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.63,
+     "top": 152,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "RouterOS Wi-Fi billing without captive friction.",
+     "words": 6,
+     "lines": 2,
+     "size": 26,
+     "font": "Jost"
+    },
+    "headings": [
+     {
+      "text": "RouterOS Wi-Fi billing without captive friction.",
+      "words": 6,
+      "chars": 48,
+      "lines": 2,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Jost",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.63,
+      "top": 152,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "The router architecture.",
+      "words": 3,
+      "chars": 24,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Jost",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 2591,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Hardware specification.",
+      "words": 2,
+      "chars": 23,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Jost",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 5969,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Tariff plans.",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Jost",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 8008,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Operational details.",
+      "words": 2,
+      "chars": 20,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Jost",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 9497,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 5,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Jost",
+       "share": 0.98,
+       "mono": false
+      },
+      {
+       "family": "ui-monospace",
+       "share": 0.02,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      24,
+      26
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Jost",
+      "size": 16,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 18.9
+     },
+     "measureChars": 85,
+     "max": {
+      "size": 26,
+      "vw": 3.4,
+      "font": "Jost",
+      "text": "RouterOS Wi-Fi billing without captive f"
+     },
+     "monoShare": 0.02,
+     "monoProseShare": 0,
+     "monoFamilies": [
+      "ui-monospace"
+     ],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.03,
+     "centerShare": 0.04,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#f4f4f4",
+       "top": 487,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.96
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#111111",
+       "share": 0.56
+      },
+      {
+       "color": "#333333",
+       "share": 0.22
+      },
+      {
+       "color": "#555555",
+       "share": 0.18
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.02
+      },
+      {
+       "color": "#1a4be0",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#1a4be0",
+      "hsl": {
+       "h": 225,
+       "s": 0.79,
+       "l": 0.49
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 10,
+     "inHero": 4,
+     "radius": 0,
+     "height": 43,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Connect gateway",
+      "Deploy gateway",
+      "North Campus",
+      "Issue test PIN"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 1,
+     "boxRadius": 12,
+     "squareMedia": 3,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 6,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 2686
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 64,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "jost"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.46,
+    0.65,
+    0.28,
+    0.72,
+    0.81,
+    0.81,
+    0.55,
+    0.36,
+    0.47,
+    0.76,
+    0.63,
+    0.59
+   ],
+   "motion": {
+    "elements": 48,
+    "css": 47,
+    "transitions": 1,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 14469,
+     "screens": 17.1,
+     "words": 1376,
+     "img": 3,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 9,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 13,
+     "uiAbuse": false,
+     "realPictures": 2,
+     "videoCount": 0,
+     "uiPictures": 5,
+     "pictureSamples": [
+      "parabolic-antennas-on-a-telecommunications-tower",
+      "vodno-telecommunication-tower-skopje-2.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "RouterOS Wi-Fi billing without captive friction.",
+     "words": 6,
+     "chars": 48,
+     "lines": 2,
+     "size": 26,
+     "vw": 6.7,
+     "font": "Jost",
+     "weight": 500,
+     "tracking": -0.02,
+     "leading": 1.1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.88,
+     "top": 152,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "RouterOS Wi-Fi billing without captive friction.",
+     "words": 6,
+     "lines": 2,
+     "size": 26,
+     "font": "Jost"
+    },
+    "headings": [
+     {
+      "text": "RouterOS Wi-Fi billing without captive friction.",
+      "words": 6,
+      "chars": 48,
+      "lines": 2,
+      "size": 26,
+      "vw": 6.7,
+      "font": "Jost",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 152,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Live operator dispatch.",
+      "words": 3,
+      "chars": 23,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Jost",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 1267,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "The router architecture.",
+      "words": 3,
+      "chars": 24,
+      "lines": 1,
+      "size": 26,
+      "vw": 6.7,
+      "font": "Jost",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 2661,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Three operations.",
+      "words": 2,
+      "chars": 17,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Jost",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 5688,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Pair the router via outbound script.",
+      "words": 6,
+      "chars": 36,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Jost",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 5859,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Define speed ceilings and tariff passes.",
+      "words": 6,
+      "chars": 40,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Jost",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 6262,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Dispatch automated vouchers and billing.",
+      "words": 5,
+      "chars": 40,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Jost",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 6665,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Hardware specification.",
+      "words": 2,
+      "chars": 23,
+      "lines": 1,
+      "size": 26,
+      "vw": 6.7,
+      "font": "Jost",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 7676,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Tariff plans.",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 26,
+      "vw": 6.7,
+      "font": "Jost",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 10093,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Operational details.",
+      "words": 2,
+      "chars": 20,
+      "lines": 1,
+      "size": 26,
+      "vw": 6.7,
+      "font": "Jost",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 11693,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 10,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Jost",
+       "share": 0.98,
+       "mono": false
+      },
+      {
+       "family": "ui-monospace",
+       "share": 0.02,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      24,
+      26
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Jost",
+      "size": 16,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 18.9
+     },
+     "measureChars": 42,
+     "max": {
+      "size": 26,
+      "vw": 6.7,
+      "font": "Jost",
+      "text": "RouterOS Wi-Fi billing without captive f"
+     },
+     "monoShare": 0.02,
+     "monoProseShare": 0,
+     "monoFamilies": [
+      "ui-monospace"
+     ],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.03,
+     "centerShare": 0.04,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 0,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#f4f4f4",
+       "top": 487,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.96
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#111111",
+       "share": 0.56
+      },
+      {
+       "color": "#333333",
+       "share": 0.22
+      },
+      {
+       "color": "#555555",
+       "share": 0.18
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.02
+      },
+      {
+       "color": "#1a4be0",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#1a4be0",
+      "hsl": {
+       "h": 225,
+       "s": 0.79,
+       "l": 0.49
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 10,
+     "inHero": 3,
+     "radius": 0,
+     "height": 43,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Connect gateway",
+      "Deploy gateway",
+      "North Campus"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 1,
+     "boxRadius": 12,
+     "squareMedia": 2,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 6,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 2756
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 10698
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 64,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "jost"
+    ]
+   },
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "card-rows",
+   "width": 1440,
+   "message": "2 rows of identical boxed cards.",
+   "fix": "Vary the composition; not every section is a card grid.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "12 different font sizes (13, 14, 15, 16, 17, 19, 20, 24, 28, 29, 30, 32).",
+   "fix": "A page needs about five: display, heading, lead, body, small."
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\USER\\Downloads\\majal-isp---mikrotik-wi-fi-management-saas\\.taste-skill\\inspect\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\USER\\Downloads\\majal-isp---mikrotik-wi-fi-management-saas\\.taste-skill\\inspect\\desktop-page-01.jpg",
+    "C:\\Users\\USER\\Downloads\\majal-isp---mikrotik-wi-fi-management-saas\\.taste-skill\\inspect\\desktop-page-02.jpg",
+    "C:\\Users\\USER\\Downloads\\majal-isp---mikrotik-wi-fi-management-saas\\.taste-skill\\inspect\\desktop-page-03.jpg"
+   ]
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\USER\\Downloads\\majal-isp---mikrotik-wi-fi-management-saas\\.taste-skill\\inspect\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\USER\\Downloads\\majal-isp---mikrotik-wi-fi-management-saas\\.taste-skill\\inspect\\tablet-page-01.jpg",
+    "C:\\Users\\USER\\Downloads\\majal-isp---mikrotik-wi-fi-management-saas\\.taste-skill\\inspect\\tablet-page-02.jpg"
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\USER\\Downloads\\majal-isp---mikrotik-wi-fi-management-saas\\.taste-skill\\inspect\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\USER\\Downloads\\majal-isp---mikrotik-wi-fi-management-saas\\.taste-skill\\inspect\\mobile-page-01.jpg",
+    "C:\\Users\\USER\\Downloads\\majal-isp---mikrotik-wi-fi-management-saas\\.taste-skill\\inspect\\mobile-page-02.jpg"
+   ]
+  }
+ ]
+}

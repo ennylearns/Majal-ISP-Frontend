@@ -1,0 +1,6 @@
+{
+  "name": "MAJAL ISP - MikroTik Wi-Fi Management SaaS",
+  "description": "Cloud management and automated billing software for MikroTik Wi-Fi operators, campus networks, and hotspot businesses.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

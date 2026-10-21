@@ -1,0 +1,30 @@
+.pixel-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--pixel-card-radius, 20px);
+  isolation: isolate;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.28s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.28s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.2s ease;
+}
+
+.pixel-card-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.pixel-card > *:not(.pixel-card-canvas) {
+  position: relative;
+  z-index: 1;
+}
+
+/* Optional subtle focus indicator */
+.pixel-card:focus-visible {
+  outline: 2px solid #1a4be0;
+  outline-offset: 2px;
+}
