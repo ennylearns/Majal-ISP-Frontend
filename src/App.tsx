@@ -43,7 +43,14 @@ export default function App() {
   const [currentUser, setCurrentUser] = useState<User | null>(() => {
     try {
       const saved = localStorage.getItem('majal_current_user');
-      if (saved) return JSON.parse(saved);
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        if (parsed.name && parsed.name.includes('Sujon')) {
+          parsed.name = 'Victor Al-Hassan';
+          localStorage.setItem('majal_current_user', JSON.stringify(parsed));
+        }
+        return parsed;
+      }
     } catch {
       // fallback
     }

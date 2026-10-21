@@ -62,7 +62,7 @@ export const GenerateVoucherModal: React.FC<GenerateVoucherModalProps> = ({
 
         {/* Modal Header */}
         <div className="flex items-center gap-3 mb-6">
-          <div className="w-10 h-10 rounded-xl bg-[#e8f5e9] text-[#136c44] flex items-center justify-center shrink-0">
+          <div className="w-10 h-10 rounded-xl bg-[#eff6ff] text-[#1a4be0] border border-[#dbeafe] flex items-center justify-center shrink-0">
             <Ticket size={20} />
           </div>
           <div>
@@ -140,7 +140,7 @@ export const GenerateVoucherModal: React.FC<GenerateVoucherModalProps> = ({
             <div className="pt-3">
               <button
                 type="submit"
-                className="w-full bg-[#136c44] hover:bg-[#0f5434] text-white py-3 px-4 rounded-xl text-[14px] font-medium transition-colors cursor-pointer"
+                className="w-full bg-[#1a4be0] hover:bg-[#153bb5] text-white py-3 px-4 rounded-xl text-[14px] font-medium transition-colors cursor-pointer shadow-sm shadow-[#1a4be0]/20"
               >
                 Generate & Sync with MikroTik RADIUS
               </button>
@@ -148,7 +148,7 @@ export const GenerateVoucherModal: React.FC<GenerateVoucherModalProps> = ({
           </form>
         ) : (
           <div className="space-y-4">
-            <div className="p-3 bg-[#e8f5e9] text-[#136c44] rounded-xl text-[13px] font-medium flex items-center justify-between">
+            <div className="p-3 bg-[#eff6ff] text-[#1a4be0] border border-[#dbeafe] rounded-xl text-[13px] font-medium flex items-center justify-between">
               <span>Successfully generated {generatedCodes.length} vouchers!</span>
               <Check size={16} />
             </div>

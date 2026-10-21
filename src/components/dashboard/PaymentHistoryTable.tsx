@@ -67,7 +67,7 @@ export const PaymentHistoryTable: React.FC<PaymentHistoryTableProps> = ({
                     </div>
                     <div>
                       <div className="font-medium text-[#111111]">{item.name}</div>
-                      <div className="text-[11px] text-[#2e7d32] font-medium">+12.2%</div>
+                      <div className="text-[11px] text-[#1a4be0] font-medium">+12.2%</div>
                     </div>
                   </div>
                 </td>
@@ -85,16 +85,16 @@ export const PaymentHistoryTable: React.FC<PaymentHistoryTableProps> = ({
                 {/* Status Dot */}
                 <td className="py-3.5 pr-3 whitespace-nowrap">
                   <div className="flex items-center gap-1.5">
-                    <span className="w-2 h-2 rounded-full bg-[#136c44]" />
-                    <span className="text-[#136c44] font-medium text-[12px]">
+                    <span className="w-2 h-2 rounded-full bg-[#1a4be0]" />
+                    <span className="text-[#1a4be0] font-medium text-[12px]">
                       {item.status}
                     </span>
                   </div>
                 </td>
 
-                {/* Amount */}
+                {/* Amount in Naira */}
                 <td className="py-3.5 text-right font-medium text-[#111111] tabular-nums whitespace-nowrap">
-                  {item.amountNgn.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })} USD
+                  ₦{item.amountNgn.toLocaleString('en-NG', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
                 </td>
               </tr>
             ))}

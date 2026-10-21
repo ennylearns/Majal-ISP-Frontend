@@ -10,12 +10,12 @@ export const CreditAndStaffCard: React.FC<CreditAndStaffCardProps> = ({ onExplor
     { name: 'Marcus Adebayo', src: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80' },
     { name: 'Tariq Ibrahim', src: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=120&q=80' },
     { name: 'Chidinma Okafor', src: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=120&q=80' },
-    { name: 'Sujon Al-Hassan', src: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80' },
+    { name: 'Victor Al-Hassan', src: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80' },
   ];
 
   return (
     <div className="bg-white rounded-2xl p-6 shadow-xs flex flex-col justify-between" data-ui="true">
-      {/* Top Section: Amount of Credit */}
+      {/* Top Section: Amount of Credit in Naira */}
       <div>
         <div className="flex items-center gap-2.5 mb-3">
           <div className="w-8 h-8 rounded-lg bg-[#f4f4f4] flex items-center justify-center text-[#111111]">
@@ -31,12 +31,12 @@ export const CreditAndStaffCard: React.FC<CreditAndStaffCardProps> = ({ onExplor
           </div>
         </div>
 
-        {/* Big Value + Delta Badge */}
+        {/* Big Value + Delta Badge (Naira & Majal Blue) */}
         <div className="flex items-center gap-3 my-2">
-          <div className="text-[26px] sm:text-[28px] font-bold text-[#111111] tracking-tight tabular-nums">
-            $8,945.89
+          <div className="text-[24px] sm:text-[26px] font-bold text-[#111111] tracking-tight tabular-nums">
+            ₦645,800.00
           </div>
-          <div className="bg-[#e8f5e9] text-[#136c44] text-[12px] font-semibold px-2.5 py-0.5 rounded-full">
+          <div className="bg-[#eff6ff] text-[#1a4be0] border border-[#dbeafe] text-[12px] font-semibold px-2.5 py-0.5 rounded-full">
             +12.8%
           </div>
         </div>
@@ -62,7 +62,7 @@ export const CreditAndStaffCard: React.FC<CreditAndStaffCardProps> = ({ onExplor
           </button>
         </div>
 
-        {/* 4 Avatars + "+2" Count Pill (Matching reference image) */}
+        {/* 4 Avatars + "+2" Count Pill (Majal Blue) */}
         <div className="flex items-center gap-2 pt-1">
           <div className="flex -space-x-2 overflow-hidden">
             {staffAvatars.map((person) => (
@@ -76,7 +76,7 @@ export const CreditAndStaffCard: React.FC<CreditAndStaffCardProps> = ({ onExplor
             ))}
           </div>
 
-          <div className="w-8 h-8 rounded-full bg-[#136c44] text-white flex items-center justify-center text-[12px] font-semibold shadow-xs">
+          <div className="w-8 h-8 rounded-full bg-[#1a4be0] text-white flex items-center justify-center text-[12px] font-semibold shadow-xs">
             +2
           </div>
         </div>

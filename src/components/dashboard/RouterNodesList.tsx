@@ -17,7 +17,7 @@ export const RouterNodesList: React.FC<RouterNodesListProps> = ({
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
         <div>
           <h2 className="text-[18px] font-bold text-[#111111] tracking-tight flex items-center gap-2">
-            <Radio size={20} className="text-[#136c44]" />
+            <Radio size={20} className="text-[#1a4be0]" />
             <span>MikroTik Hardware Gateway Fleet</span>
           </h2>
           <p className="text-[13px] text-[#666666]">
@@ -27,7 +27,7 @@ export const RouterNodesList: React.FC<RouterNodesListProps> = ({
 
         <button
           onClick={onOpenAddRouter}
-          className="bg-[#136c44] hover:bg-[#0f5434] text-white px-4 py-2 rounded-full text-[13px] font-medium flex items-center gap-1.5 transition-colors cursor-pointer self-start sm:self-auto"
+          className="bg-[#1a4be0] hover:bg-[#153bb5] text-white px-4 py-2 rounded-full text-[13px] font-medium flex items-center gap-1.5 transition-colors cursor-pointer self-start sm:self-auto shadow-xs shadow-[#1a4be0]/20"
         >
           <Plus size={16} />
           <span>Add Router Gateway</span>
@@ -47,14 +47,14 @@ export const RouterNodesList: React.FC<RouterNodesListProps> = ({
                   <span className="font-bold text-[#111111] text-[15px]">
                     {router.identity}
                   </span>
-                  <span className="w-2 h-2 rounded-full bg-[#136c44]" />
+                  <span className="w-2 h-2 rounded-full bg-[#1a4be0]" />
                 </div>
                 <div className="text-[12px] text-[#555555]">
                   {router.model} · {router.location}
                 </div>
               </div>
 
-              <span className="text-[11px] font-semibold px-2 py-0.5 rounded-full bg-[#e8f5e9] text-[#136c44]">
+              <span className="text-[11px] font-semibold px-2 py-0.5 rounded-full bg-[#eff6ff] text-[#1a4be0] border border-[#dbeafe]">
                 {router.status}
               </span>
             </div>
@@ -66,7 +66,7 @@ export const RouterNodesList: React.FC<RouterNodesListProps> = ({
                 <span>{router.ipAddress}:{router.apiPort}</span>
               </div>
               <div className="flex items-center gap-1">
-                <ShieldCheck size={13} className="text-[#136c44]" />
+                <ShieldCheck size={13} className="text-[#1a4be0]" />
                 <span>API TLS</span>
               </div>
               <div className="text-[11px] text-[#888888]">
@@ -84,7 +84,7 @@ export const RouterNodesList: React.FC<RouterNodesListProps> = ({
                 <div
                   style={{ width: `${router.cpuLoadPercent}%` }}
                   className={`h-full rounded-full ${
-                    router.cpuLoadPercent > 70 ? 'bg-[#b71c1c]' : 'bg-[#136c44]'
+                    router.cpuLoadPercent > 70 ? 'bg-[#b71c1c]' : 'bg-[#1a4be0]'
                   }`}
                 />
               </div>

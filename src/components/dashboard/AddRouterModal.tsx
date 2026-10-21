@@ -69,7 +69,7 @@ export const AddRouterModal: React.FC<AddRouterModalProps> = ({
 
         {/* Modal Header */}
         <div className="flex items-center gap-3 mb-6">
-          <div className="w-10 h-10 rounded-xl bg-[#e8f5e9] text-[#136c44] flex items-center justify-center shrink-0">
+          <div className="w-10 h-10 rounded-xl bg-[#eff6ff] text-[#1a4be0] border border-[#dbeafe] flex items-center justify-center shrink-0">
             <Radio size={20} />
           </div>
           <div>
@@ -169,7 +169,7 @@ export const AddRouterModal: React.FC<AddRouterModalProps> = ({
             <button
               type="submit"
               disabled={isTesting}
-              className="w-full bg-[#136c44] hover:bg-[#0f5434] text-white py-3 px-4 rounded-xl text-[14px] font-medium transition-colors cursor-pointer disabled:opacity-50"
+              className="w-full bg-[#1a4be0] hover:bg-[#153bb5] text-white py-3 px-4 rounded-xl text-[14px] font-medium transition-colors cursor-pointer disabled:opacity-50 shadow-sm shadow-[#1a4be0]/20"
             >
               {isTesting ? 'Verifying RouterOS API Handshake...' : 'Confirm Gateway Provisioning'}
             </button>
