@@ -32,10 +32,10 @@ export const DashboardPreview: React.FC = () => {
         {/* Section Heading & Sentence */}
         <div data-rise style={{ '--i': 0 } as React.CSSProperties} className="mb-10 text-left">
           <h2 className="text-[clamp(24px,2vw,30px)] font-medium text-[#111111] tracking-[-0.02em] mb-3">
-            Live operator dispatch.
+            Manage your network live.
           </h2>
           <p className="text-[16px] text-[#111111] max-w-[52ch]">
-            Adjust bandwidth throttles, toggle captive authentication, and drop active subscriber sessions in real time.
+            Change speed limits, manage login settings, and end subscriber sessions in real time.
           </p>
         </div>
 

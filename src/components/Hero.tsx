@@ -75,7 +75,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenLeadModal, onExploreDemo }) =>
           <h1 
             className="text-[clamp(26px,2.1vw,32px)] font-medium text-[#111111] leading-[1.1] tracking-[-0.02em] text-balance mb-6"
           >
-            RouterOS Wi-Fi billing without captive friction.
+            Simple Wi-Fi billing for RouterOS.
           </h1>
 
           <p 
@@ -83,7 +83,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenLeadModal, onExploreDemo }) =>
             style={{ '--i': 1 } as React.CSSProperties}
             className="text-[16px] text-[#111111] leading-[1.5] max-w-[44ch] mb-8"
           >
-            Centralized subscriber quotas, dynamic queue trees, and automated vouchers for MikroTik operators across campuses and estates.
+            Manage subscriber limits, bandwidth queues, and vouchers for MikroTik networks in campuses, hotels, and estates.
           </p>
 
           <div 
@@ -95,13 +95,13 @@ export const Hero: React.FC<HeroProps> = ({ onOpenLeadModal, onExploreDemo }) =>
               onClick={onOpenLeadModal}
               className="button-primary cursor-pointer text-[15px]"
             >
-              Deploy gateway
+              Connect a gateway
             </button>
             <button 
               onClick={onExploreDemo}
               className="text-[15px] text-[#111111] hover:underline cursor-pointer"
             >
-              Inspect live console
+              See the live console
             </button>
           </div>
         </div>
@@ -124,7 +124,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenLeadModal, onExploreDemo }) =>
           <div className="flex items-center justify-between">
             <div>
               <p className="text-[13px] font-medium text-[#111111] uppercase tracking-normal">
-                Gateway Telemetry Instrument
+                Gateway status
               </p>
               <p className="text-[13px] text-[#555555]">
                 Active radius socket · {viewportWidth}px viewport
@@ -209,7 +209,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenLeadModal, onExploreDemo }) =>
           {/* Interactive Live PIN Voucher Generator */}
           <div className="space-y-3 pt-2">
             <div className="flex items-center justify-between text-[13px]">
-              <span className="font-medium text-[#111111]">Instant voucher issuer</span>
+              <span className="font-medium text-[#111111]">Create a voucher</span>
               <div className="flex gap-2 text-[13px]">
                 <button
                   onClick={() => setPinDuration('1 Hour')}

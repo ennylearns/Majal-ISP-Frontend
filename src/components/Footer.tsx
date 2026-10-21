@@ -15,7 +15,7 @@ export const Footer: React.FC<{ onOpenLeadModal: () => void }> = () => {
               className="h-8 w-auto object-contain"
             />
             <span className="text-[#555555] text-[14px]">
-              MAJAL ISP. RouterOS cloud billing.
+              MAJAL ISP. Simple Wi-Fi billing for RouterOS.
             </span>
           </div>
 

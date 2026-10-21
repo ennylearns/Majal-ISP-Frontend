@@ -99,13 +99,13 @@ export const Pricing: React.FC<PricingProps> = ({ onOpenLeadModal }) => {
         <div data-rise style={{ '--i': 0 } as React.CSSProperties} className="text-center max-w-2xl mx-auto mb-16 space-y-4">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white border border-[#e5e7eb] text-[12px] font-medium tracking-wide uppercase text-[#555555] shadow-xs">
             <span className="w-1.5 h-1.5 rounded-full bg-[#1a4be0] animate-pulse" />
-            Transparent Tariff Plans
+            Simple monthly plans
           </div>
           <h2 className="text-[clamp(28px,3.2vw,42px)] font-medium text-[#111111] tracking-[-0.03em] leading-tight">
-            Predictable software licensing.
+            Plans that scale with your network.
           </h2>
           <p className="text-[16px] text-[#555555] leading-relaxed">
-            Flat monthly subscriptions. Operators retain 100% of voucher collections directly into their settlement accounts.
+            Pay a flat monthly subscription. You keep every voucher payment in your own settlement account.
           </p>
         </div>
 
@@ -181,7 +181,7 @@ export const Pricing: React.FC<PricingProps> = ({ onOpenLeadModal }) => {
                       {/* Benefits Section: Checkmarks in vertical order */}
                       <div className="space-y-3.5 mb-8">
                         <div className={`text-[11.5px] font-semibold tracking-wider uppercase ${isCenter ? 'text-[#38bdf8]' : 'text-[#1a4be0]'}`}>
-                          Included Benefits:
+                          What&apos;s included:
                         </div>
                         <ul className="space-y-3">
                           {plan.benefits.map((benefit, bIdx) => (
